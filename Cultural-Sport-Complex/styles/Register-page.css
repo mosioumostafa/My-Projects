@@ -1,0 +1,19 @@
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.form-div{
+    background-color: #cecece;
+    width: 40vw;
+    margin: auto;
+    height: 70vh;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.new-firstname , .new-lastname ,  .new-username , .new-password{
+    text-align: right;
+}

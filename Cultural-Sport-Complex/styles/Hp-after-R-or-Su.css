@@ -1,0 +1,55 @@
+body{
+    background-color: #cececc;
+    height: 100vh;
+   }.The-Logo{
+       width: 12rem;
+       height: 10rem;
+   }
+   .p-relative{
+       position: relative;
+   }
+   .mother-categories{
+       cursor: pointer;
+   }
+   .hoverable-list{
+       display: none;
+       background-color: white;
+       top: 2rem;
+       position: absolute;
+       list-style-type: none;
+       color: #0d6efd;
+       width: 50vw;
+       cursor: pointer;
+   }
+   .hoverable-list li{
+       align-self: stretch;
+       transition-property: all;
+       transition-duration: 0.2s;
+   }
+   .hoverable-list li:hover{
+       background-color: #0d6efd;
+       color: white;
+   }
+   .mother-categories:hover .hoverable-list{
+       display: block;
+   }
+   .m-ed-span-in-header{ /* HTML is in JS */
+    margin-left: 1rem;
+    margin-right: 1rem;
+   }
+   .logout-button{
+    position: absolute;
+    top: 1rem;
+    left: 3rem;
+}
+.athlete-counter-div{
+    text-align: center;
+}
+.athlete-counter{
+    background-color:#0d6efd ;
+    color: white;
+    display: inline-block;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin-top: 1rem;
+}

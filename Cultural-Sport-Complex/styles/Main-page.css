@@ -1,0 +1,62 @@
+body{
+ background-color: #cececc;   
+}.The-Logo{
+    width: 12rem;
+    height: 10rem;
+}
+.p-relative{
+    position: relative;
+}
+.mother-categories{
+    cursor: pointer;
+}
+.hoverable-list{
+    display: none;
+    background-color: white;
+    top: 2rem;
+    position: absolute;
+    list-style-type: none;
+    color: #0d6efd;
+    width: 50vw;
+    cursor: pointer;
+}
+.hoverable-list li{
+    align-self: stretch;
+    transition-property: all;
+    transition-duration: 0.2s;
+}
+.hoverable-list li:hover{
+    background-color: #0d6efd;
+    color: white;
+}
+.mother-categories:hover .hoverable-list{
+    display: block;
+}
+
+.athlete-counter-div{
+    text-align: center;
+}
+.athlete-counter{
+    background-color:#0d6efd ;
+    color: white;
+    display: inline-block;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+.popup-alert{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 15rem;
+    height: 12rem;
+    background-color: white;
+    position: absolute;
+    right: 5rem;
+    top: 15rem;
+    z-index: 1;
+}
+.popup-alert > button{
+    width: 5rem;
+}

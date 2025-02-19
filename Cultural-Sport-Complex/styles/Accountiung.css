@@ -1,0 +1,27 @@
+body{
+    background-color: #cececc;
+}
+.list-of-accounts{
+    background-color: white;
+    border-radius: 1.5rem;
+    border: 1.5px  solid black;
+}
+.head-titles{
+    text-align: right;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.head-titles > span , .salary-lists > div{
+    flex: 1;
+    text-align: center;
+}
+.salary-lists{
+    margin-top: 1rem;
+    text-align: right;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.salary-lists > span{
+    flex: 1;
+    text-align: center;
+}

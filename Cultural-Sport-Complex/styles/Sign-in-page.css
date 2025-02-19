@@ -1,0 +1,22 @@
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.sign-in-form-div{
+    width: 40vw;
+    height: 70vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 2rem;
+    background-color: #cecece;
+}
+.sign-in-form-div > input{
+    margin : 1rem 0rem 1rem 0rem;
+    text-align: right;
+}
+.sign-up-button{
+    align-self: center;
+}
